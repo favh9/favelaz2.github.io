@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- ERROR: ROOT ELEMENT IS NOT "Hotels" -->
+<!-- ERROR (1) The root element name is Hotel, instead of Hotels. -->
 <Hotel
     xmlns:xsi="Hotels.xsd"
     xmlns="Hotels.xsd"
@@ -9,24 +9,21 @@
     <Hotel>
         <Name>Gila River Resorts &amp; Casinos - Vee Quiva</Name>
         <Phone>(800)946-4452</Phone>
+
         <Address>
             <Number>15091</Number>
             <Street>S Komatke Ln</Street>
             <City>Laveen Village</City>
             <State>AZ</State>
             <Zip>85339</Zip>
-            <!-- ERROR: AREQUIRED ATTRIBUTE IS MISSING -->
-            <!-- <NearestAirport>Phoenix Sky Harbor International Airport (PHX)</NearestAirport> -->
+            <!-- ERROR (2) A required attribute is missing -->
         </Address>
-        <!-- Optional rating -->
-        <!-- <Rating>4.2</Rating> -->
     </Hotel>
 
     <!-- Hotel 2 -->
     <Hotel>
         <Name>Sheraton Grand at Wild Horse Pass</Name>
-        <!-- ERROR: A PHONE ELEMENT IS MISSING -->
-        <!-- <Phone>480-555-5678</Phone> -->
+        <!-- ERROR (3) A Phone element is missing on one of the hotels. -->
         <Address>
             <Number>5594</Number>
             <Street>W Wild Horse Pass Blvd</Street>
@@ -50,15 +47,15 @@
             <State>AZ</State>
             <Zip>85226</Zip>
             <NearestAirport>Phoenix Sky Harbor International Airport (PHX)</NearestAirport>
-        <!-- ERROR: AN ADDRESS ELEMENT HAS NO CLOSING TAG -->
-        </Address>
+        <!-- ERROR (4) An Address element has no closing tag. -->
+        
         <Rating>3.4</Rating>
     </Hotel>
 
     <!-- Hotel 4 -->
     <Hotel>
         <Name>Best Western Plus Chandler Hotel &amp; Suites</Name>
-        <!-- ERROR: A NAME ELEMENT IS USED MORE THAN ONCE -->
+        <!-- ERROR (5) Two names are provided for one of the hotels. -->
         <Name>Foo</Name>
         <Phone>520-796-1350</Phone>
         <Address>
