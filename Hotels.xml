@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Hotels
+    xmlns:xsi="Hotels.xsd"
+    xmlns="Hotels.xsd"
+    xsi:schemaLocation="Hotels.xsd">
+
+    <!-- Hotel 1 -->
+    <Hotel>
+        <Name>Gila River Resorts &amp; Casinos - Vee Quiva</Name>
+        <Phone>(800)946-4452</Phone>
+        <Address>
+            <Number>15091</Number>
+            <Street>S Komatke Ln</Street>
+            <City>Laveen Village</City>
+            <State>AZ</State>
+            <Zip>85339</Zip>
+            <NearestAirport>Phoenix Sky Harbor International Airport (PHX)</NearestAirport>
+        </Address>
+        <!-- <Rating>4.2</Rating> -->
+    </Hotel>
+
+    <!-- Hotel 2 -->
+    <Hotel>
+        <Name>Sheraton Grand at Wild Horse Pass</Name>
+        <Phone>480-555-5678</Phone>
+        <Address>
+            <Number>5594</Number>
+            <Street>W Wild Horse Pass Blvd</Street>
+            <City>Chandler</City>
+            <State>AZ</State>
+            <Zip>85226</Zip>
+            <NearestAirport>Phoenix Sky Harbor International Airport (PHX)</NearestAirport>
+        </Address>
+        <Rating>4.5</Rating>
+    </Hotel>
+
+    <!-- Hotel 3 -->
+    <Hotel>
+        <Name>Quality Inn Chandler I-10</Name>
+        <Phone>480-535-4461</Phone>
+        <Phone>480-535-1234</Phone> <!-- Added second phone number -->
+        <Address>
+            <Number>255</Number>
+            <Street>N Kyrene Rd</Street>
+            <City>Chandler</City>
+            <State>AZ</State>
+            <Zip>85226</Zip>
+            <NearestAirport>Phoenix Sky Harbor International Airport (PHX)</NearestAirport>
+        </Address>
+        <Rating>3.4</Rating>
+    </Hotel>
+
+    <!-- Hotel 4 -->
+    <Hotel>
+        <Name>Best Western Plus Chandler Hotel &amp; Suites</Name>
+        <Phone>520-796-1350</Phone>
+        <Address>
+            <Number>7101</Number>
+            <Street>W Sundust Rd</Street>
+            <City>Chandler</City>
+            <State>AZ</State>
+            <Zip>85226</Zip>
+            <NearestAirport>Phoenix Sky Harbor International Airport (PHX)</NearestAirport>
+        </Address>
+        <Rating>4.3</Rating>
+    </Hotel>
+
+    <!-- Hotel 5 -->
+    <Hotel>
+        <Name>Fairfield by Marriott Inn &amp; Suites Phoenix West Chandler</Name>
+        <Phone>480-856-4983</Phone>
+        <Address>
+            <Number>15221</Number>
+            <Street>S 50th St</Street>
+            <City>Phoenix</City>
+            <State>AZ</State>
+            <Zip>85044</Zip>
+            <NearestAirport>Phoenix Sky Harbor International Airport (PHX)</NearestAirport>
+        </Address>
+        <Rating>4.2</Rating>
+    </Hotel>
+
+    <!-- Hotel 6 -->
+    <Hotel>
+        <Name>Ramada by Wyndham Tempe/At Arizona Mills Mall</Name>
+        <Phone>480-400-9038</Phone>
+        <Address>
+            <Number>1701</Number>
+            <Street>W Baseline Rd</Street>
+            <City>Tempe</City>
+            <State>AZ</State>
+            <Zip>85283</Zip>
+            <NearestAirport>Phoenix Sky Harbor International Airport (PHX)</NearestAirport>
+        </Address>
+        <Rating>3.3</Rating>
+    </Hotel>
+
+    <!-- Hotel 7 -->
+    <Hotel>
+        <Name>Gila River Resorts &amp; Casinos - Wild Horse Pass</Name>
+        <Phone>800-946-4452</Phone>
+        <Address>
+            <Number>5040</Number>
+            <Street>Wild Horse Pass Blvd</Street>
+            <City>Chandler</City>
+            <State>AZ</State>
+            <Zip>85226</Zip>
+            <NearestAirport>Phoenix Sky Harbor International Airport (PHX)</NearestAirport>
+        </Address>
+        <Rating>4.2</Rating>
+    </Hotel>
+
+    <!-- Hotel 8 -->
+    <Hotel>
+        <Name>Sonesta Select Phoenix Chandler</Name>
+        <Phone>480-763-9500</Phone>
+        <Address>
+            <Number>920</Number>
+            <Street>N 54th St</Street>
+            <City>Chandler</City>
+            <State>AZ</State>
+            <Zip>85226</Zip>
+            <NearestAirport>Phoenix Sky Harbor International Airport (PHX)</NearestAirport>
+        </Address>
+        <Rating>4.1</Rating>
+    </Hotel>
+
+    <!-- Hotel 9 -->
+    <Hotel>
+        <Name>Red Roof PLUS+ Phoenix West</Name>
+        <Phone>602-325-9216</Phone>
+        <Address>
+            <Number>5215</Number>
+            <Street>W Willetta St</Street>
+            <City>Phoenix</City>
+            <State>AZ</State>
+            <Zip>85043</Zip>
+            <NearestAirport>Phoenix Sky Harbor International Airport (PHX)</NearestAirport>
+        </Address>
+        <Rating>3.5</Rating>
+    </Hotel>
+
+    <!-- Hotel 10 -->
+    <Hotel>
+        <Name>Extended Stay America Suites- Phoenix - Chandler</Name>
+        <Phone>480-785-0464</Phone>
+        <Address>
+            <Number>14245</Number>
+            <Street>S 50th St</Street>
+            <City>Phoenix</City>
+            <State>AZ</State>
+            <Zip>85044</Zip>
+            <NearestAirport>Phoenix Sky Harbor International Airport (PHX)</NearestAirport>
+        </Address>
+        <Rating>3.5</Rating>
+    </Hotel>
+
+</Hotels>
