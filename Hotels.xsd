@@ -31,7 +31,7 @@ elementFormDefault="qualified">
                     </xsd:element>
                     </xsd:sequence>
                     <!-- Rating attribute is optional for Hotel -->
-                    <xsd:attribute name="Rating" type="xsd:decimal" use="optional"/>
+                    <xsd:attribute name="Rating" type="xsd:string" use="optional"/>
                 </xsd:complexType>
             </xsd:element>
         </xsd:sequence>
