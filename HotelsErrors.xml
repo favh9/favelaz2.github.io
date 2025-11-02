@@ -51,7 +51,7 @@
             <Zip>85226</Zip>
             <NearestAirport>Phoenix Sky Harbor International Airport (PHX)</NearestAirport>
         <!-- ERROR: AN ADDRESS ELEMENT HAS NO CLOSING TAG -->
-        <!-- </Address> -->
+        </Address>
         <Rating>3.4</Rating>
     </Hotel>
 
